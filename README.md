@@ -64,3 +64,55 @@ Mengapa? Karena SICP sangat unik dalam kemampuannya—setidaknya secara potensia
 Jika Anda tidak dapat menikmati SICP, cobalah _Composing Programs_. Jika masih tidak sesuai, maka cobalah [_How to Design Programs_](https://htdp.org/). Jika tidak ada satu pun dari buku-buku ini yang memberi manfaat bagi Anda, mungkin itu pertanda bahwa Anda harus fokus pada topik lain untuk sementara waktu, dan meninjau kembali disiplin ilmu pemrograman dalam satu atau dua tahun ke depan.
 
 Dan terakhir, satu poin klarifikasi: panduan ini TIDAK dirancang untuk mereka yang baru memulai pemrograman. Kami berasumsi bahwa Anda adalah seorang _programmer_ yang kompeten tanpa latar belakang ilmu komputer, yang ingin mengisi kesenjangan pengetahuan. Alasan kami menyertakan bagian tentang "pemrograman" hanyalah pengingat bahwa mungkin masih ada banyak hal untuk dipelajari. Bagi mereka yang belum pernah menulis kode sebelumnya, dan ingin memulai, Anda mungkin lebih suka panduan seperti ini.
+
+## Pertanyaan yang sering diajukan
+
+#### Untuk siapa panduan ini dibuat?
+
+Kami paham bahwa Anda adalah seorang _software engineer_ autodidak, lulusan _bootcamp_ atau siswa SMA yang ingin tahu, atau mahasiswa yang ingin melengkapi pendidikan formal Anda dengan belajar mandiri. Pertanyaan tentang kapan memulai perjalanan ini sepenuhnya bersifat pribadi, tetapi kebanyakan orang cenderung mendapat manfaat dari memiliki beberapa pengalaman profesional sebelum menyelam terlalu jauh ke dalam teori ilmu komputer. Misalnya, kami melihat bahwa siswa suka belajar tentang sistem basis data jika mereka telah bekerja dengan basis data secara profesional, atau tentang jaringan komputer jika mereka pernah mengerjakan satu atau dua proyek aplikasi web.
+
+#### Bagaimana dengan AI/grafis/topik favorit X?
+
+Kami telah mencoba membatasi daftar kami pada topik ilmu komputer yang kami rasa perlu diketahui oleh setiap _software engineer_, terlepas dari spesialisasi atau industri, tetapi dengan fokus pada sistem. Dari pengalaman kami, ini akan menjadi topik dengan manfaat terbesar untuk sebagian besar _engineer_ autodidak dan lulusan _bootcamp_, dan memberikan dasar yang kuat untuk studi lebih lanjut. Selanjutnya, Anda akan berada dalam posisi yang jauh lebih baik untuk membaca buku teks atau makalah lanjutan dan mempelajari konsep utama tanpa banyak panduan. Berikut adalah titik awal yang kami sarankan untuk beberapa "topik pilihan" umum:
+
+- Untuk topik kecerdasan buatan: selesaikan [kursus pengantar AI dari Berkeley](http://ai.berkeley.edu/) dengan menonton video dan mengerjakan proyek Pacman yang luar biasa. Untuk buku teks, gunakan _Artificial Intelligence: A Modern Approach_ oleh Russell dan Norvig.
+- Untuk topik _machine learning_: selesaikan kursus di Coursera oleh Andrew Ng. Bersabarlah, dan pastikan Anda memahami dasar-dasarnya sebelum beralih ke topik baru yang menarik seperti _deep learning_.
+- Untuk grafik komputer: pelajari materi [CS 184 Berkeley](https://inst.eecs.berkeley.edu/~cs184/fa12/onlinelectures.html), dan gunakan [_Computer Graphics: Principles and Practice_](https://www.amazon.com/Computer-Graphics-Principles-Practice-3rd/dp/0321399528) sebagai buku teks.
+
+#### Seberapa ketat urutan yang disarankan?
+
+Jika diperhatikan, semua mata pelajaran ini memiliki sejumlah bagian yang saling tumpang tindih, dan saling merujuk satu sama lain. Anda dapat mengambil contoh hubungan antara matematika diskrit dan algoritma: mempelajari matematika terlebih dahulu akan membantu Anda menganalisis dan memahami lebih dalam algoritma Anda, tetapi mempelajari algoritma terlebih dahulu akan memberikan motivasi dan konteks yang lebih besar untuk matematika diskrit. Idealnya, Anda akan mengunjungi kembali kedua topik ini berkali-kali sepanjang karier Anda.
+
+Dengan demikian, urutan yang kami sarankan dapat membantu Anda _untuk langsung memulai_... jika Anda memiliki alasan kuat untuk memilih urutan yang berbeda, maka lakukanlah. Beberapa "prasyarat" yang menurut kami penting adalah: arsitektur komputer sebelum sistem operasi atau database, dan jaringan dan sistem operasi sebelum sistem terdistribusi.
+
+#### Apa perbedaan panduan ini dengan kurikulum Open Source Society atau freeCodeCamp?
+
+Ketika panduan ini pertama kali ditulis pada tahun 2016, [panduan OSS](https://github.com/open-source-society/computer-science) membahas terlalu banyak mata pelajaran, menyarankan sumber belajar yang tidak lebih baik dari kebanyakan, dan tidak memberikan alasan atau panduan seputar mengapa atau aspek apa dari kursus tertentu yang lebih bermanfaat. Kami berusaha untuk membatasi daftar kursus kami hanya untuk kursus yang _benar-benar harus Anda ketahui_ sebagai _software engineer_, terlepas dari spesialisasi Anda, dan untuk membantu Anda memahami mengapa setiap kursus disertakan. Di tahun-tahun berikutnya, kualitas panduan OSS telah meningkat, tetapi kami masih berpikir bahwa panduan ini memberikan jalur pembelajaran yang lebih jelas dan lebih terpadu.
+
+freeCodeCamp sebagian besar berfokus pada pemrograman, bukan ilmu komputer. Untuk alasan mengapa Anda mungkin ingin mempelajari ilmu komputer, coba lihat [di atas](#mengapa-mempelajari-ilmu-komputer). Jika Anda baru memulai pemrograman, kami sarankan untuk memprioritaskan kurikulum tersebut, dan kembali ke panduan ini dalam satu atau dua tahun ke depan.
+
+#### Bagaimana dengan bahasa pemrograman X?
+
+Mempelajari bahasa pemrograman tertentu adalah hal yang sangat berbeda dengan mempelajari bidang pada ilmu komputer — mempelajari bahasa pemrograman jauh _lebih mudah_ dan _tidak lebih penting_ manfaatnya. Jika Anda sudah mengetahui beberapa bahasa pemrograman, kami sangat menyarankan Anda untuk mengikuti panduan kami dan menyesuaikan penguasaan bahasa pemrograman di sela waktu, atau setelah menyelesaikannya. Jika Anda telah mempelajari pemrograman dengan baik (seperti melalui _Structure and Interpretation of Computer Programs_), dan terutama jika Anda telah mempelajari kompiler, Anda hanya akan membutuhkan waktu setidaknya satu akhir pekan untuk mempelajari bahasa pemrograman baru, setelah itu Anda dapat mempelajarinya tentang _library_/_tooling_/ekosistem di tempat kerja.
+
+#### Bagaimana dengan teknologi terbaru X?
+
+Tidak ada satu teknologi pun yang lebih penting sehingga belajar menggunakannya harus menjadi bagian inti dari pendidikan Anda. Di sisi lain, adalah hal yang sangat bagus bahwa Anda bersemangat untuk mempelajari teknologi tersebut. Triknya adalah memulai dari bidang atau konsep yang mendasari teknologi tertentu, dan mempelajarinya secara mendalam sebelum melihat bagaimana teknologi terbaru Anda mengisi gambaran yang lebih besar.
+
+#### Mengapa Anda masih merekomendasikan SICP?
+
+Anda perlu mencoba buku SICP. Beberapa orang menganggap SICP mencengangkan, ciri yang hanya dimiliki oleh segelintir buku. Jika Anda tidak menyukainya, Anda dapat mencoba buku lain dan setelah itu mungkin kembali ke SICP.
+
+#### Mengapa Anda masih merekomendasikan _Dragon book_?
+
+_Dragon book_ masih merupakan sumber tunggal terlengkap untuk topik seputar kompiler. Buku tersebut sering mendapat reputasi buruk, biasanya karena terlalu menekankan pada topik tertentu yang kurang populer untuk dibahas secara detail, seperti _parsing_. Masalahnya adalah, buku itu tidak pernah dimaksudkan untuk dipelajari dari sampul ke sampul, hanya untuk menyediakan materi pembelajaran yang cukup bagi seorang instruktur untuk menyusun materi kuliah. Demikian pula, seorang pembelajar mandiri dapat memilih petualangan mereka melalui buku, atau lebih baik mengikuti saran yang telah dibuat oleh dosen dalam garis besar mata kuliah mereka.
+
+#### Bagaimana saya bisa mendapatkan buku teks yang terjangkau?
+
+Kebanyakan dari buku teks yang kami sarankan tersedia secara daring dan gratis, berkat kemurahan hati penulisnya. Untuk buku yang tidak tersedia gratis, kami sarankan untuk membeli buku bekas edisi lama. Sebagai aturan umum, jika suatu buku teks punya lebih dari beberapa edisi, kemungkinan besar edisi lama sudah cukup memadai. Jelas tidak mungkin versi terbaru 10x lebih baik daripada yang lama, meskipun harganya berbeda!
+
+#### Siapa yang menulis panduan ini?
+
+Panduan ini ditulis oleh [Oz Nova](https://twitter.com/oznova_) dan [Myles Byrne](https://twitter.com/quackingduck), dengan pembaruan pada tahun 2020 oleh Oz. Panduan ini dibuat berdasarkan pengalaman kami mengajar dasar-dasar ilmu komputer kepada lebih dari 1000 _engineer_ autodidak atau lulusan _bootcamp_ dalam kelompok kecil di San Francisco dan secara daring. Terima kasih kepada semua siswa kami atas masukan tentang sumber belajar mandiri.
+
+Kami yakin Anda dapat mempelajari semua hal di atas, dengan waktu dan motivasi yang cukup. Tetapi jika Anda lebih menyukai program intensif, terstruktur, dan dibimbing oleh instruktur, Anda mungkin tertarik dengan program [Computer Science Intensive](https://bradfieldcs.com/csi/) dari kami. Kami [TIDAK](https://ozwrites.com/masters/) menyarankan untuk mengejar gelar magister.
