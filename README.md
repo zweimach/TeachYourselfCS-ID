@@ -65,6 +65,18 @@ Jika Anda tidak dapat menikmati SICP, cobalah _Composing Programs_. Jika masih t
 
 Dan terakhir, satu poin klarifikasi: panduan ini TIDAK dirancang untuk mereka yang baru memulai pemrograman. Kami berasumsi bahwa Anda adalah seorang _programmer_ yang kompeten tanpa latar belakang ilmu komputer, yang ingin mengisi kesenjangan pengetahuan. Alasan kami menyertakan bagian tentang "pemrograman" hanyalah pengingat bahwa mungkin masih ada banyak hal untuk dipelajari. Bagi mereka yang belum pernah menulis kode sebelumnya, dan ingin memulai, Anda mungkin lebih suka panduan seperti ini.
 
+## Sistem Operasi
+
+<img align="right" width="200" src="https://teachyourselfcs.com/ostep.jpeg">
+
+[_Operating System Concepts_](https://www.amazon.com/dp/1118063333/) ("_Dinosaur book_") dan [_Modern Operating Systems_](https://www.amazon.com/dp/1118063333/) adalah dua buku "klasik" tentang sistem operasi. Keduanya menuai kritik karena kurang jelas dan tidak ramah bagi siswa pada umummnya.
+
+_Operating Systems: Three Easy Pieces_ adalah alternatif yang [tersedia gratis secara daring](https://pages.cs.wisc.edu/~remzi/OSTEP/). Kami sangat menyukai struktur dan keterbacaan buku ini, dan merasa bahwa latihan yang terdapat pada buku ini sangat bermanfaat.
+
+Setelah OSTEP, kami ingin Anda mengeksplorasi beberapa keputusan pada rancangan sistem operasi tertentu, melalui beberapa buku "{nama sistem operasi} Internals" seperti [_Lions' commentary on Unix_](https://www.amazon.com/Lions-Commentary-Unix-John/dp/1573980137/), [_The Design and Implementation of the FreeBSD Operating System_](https://www.amazon.com/Design-Implementation-FreeBSD-Operating-System/dp/0321968972/), dan [_Mac OS X Internals_](https://www.amazon.com/Mac-OS-Internals-Systems-Approach/dp/0321278542/). Untuk Linux, kami menyarankan buku Robert Love yang luar biasa, yaitu [_Linux Kernel Development_](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468).
+
+Cara yang bagus untuk memperkuat pemahaman Anda tentang sistem operasi adalah dengan membaca _source code_ dari kernel sistem operasi kecil dan mencoba menambahkan fitur baru. Salah satu pilihan adalah [xv6](https://pdos.csail.mit.edu/6.828/2016/xv6.html), sebuah _port_ Unix V6 ke ANSI C and x86, yang dikembangkan untuk pembelajaran di MIT. Pada buku OSTEP terdapat lampiran [xv6 labs](https://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf) yang penuh dengan ide-ide hebat untuk proyek-proyek potensial.
+
 ## Pertanyaan yang sering diajukan
 
 #### Untuk siapa panduan ini dibuat?
