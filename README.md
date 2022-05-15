@@ -65,7 +65,7 @@ Jika Anda tidak dapat menikmati SICP, cobalah _Composing Programs_. Jika masih t
 
 Dan terakhir, satu poin klarifikasi: panduan ini TIDAK dirancang untuk mereka yang baru memulai pemrograman. Kami berasumsi bahwa Anda adalah seorang _programmer_ yang kompeten tanpa latar belakang ilmu komputer, yang ingin mengisi kesenjangan pengetahuan. Alasan kami menyertakan bagian tentang "pemrograman" hanyalah pengingat bahwa mungkin masih ada banyak hal untuk dipelajari. Bagi mereka yang belum pernah menulis kode sebelumnya, dan ingin memulai, Anda mungkin lebih suka panduan seperti ini.
 
-## Sistem Operasi
+### Sistem Operasi
 
 <img align="right" width="200" src="https://teachyourselfcs.com/ostep.jpeg">
 
