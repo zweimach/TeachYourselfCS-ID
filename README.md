@@ -65,6 +65,30 @@ Jika Anda tidak dapat menikmati SICP, cobalah _Composing Programs_. Jika masih t
 
 Dan terakhir, satu poin klarifikasi: panduan ini TIDAK dirancang untuk mereka yang baru memulai pemrograman. Kami berasumsi bahwa Anda adalah seorang _programmer_ yang kompeten tanpa latar belakang ilmu komputer, yang ingin mengisi kesenjangan pengetahuan. Alasan kami menyertakan bagian tentang "pemrograman" hanyalah pengingat bahwa mungkin masih ada banyak hal untuk dipelajari. Bagi mereka yang belum pernah menulis kode sebelumnya, dan ingin memulai, Anda mungkin lebih suka panduan seperti ini.
 
+### Arsitektur Komputer
+
+<img align="right" width="200" src="https://teachyourselfcs.com/csapp.jpg">
+
+> Perangkat keras adalah platformnya
+
+– _Mike Acton, Engine Director Insomniac Games_
+
+Arsitektur Komputer—kadang disebut "sistem komputer" atau "organisasi komputer"—adalah hal pertama yang patut dilihat pada komputasi di balik perangkat lunak. Dari pengalaman kami, inilah bagian yang paling sering diabaikan para _software engineer_ autodidak.
+
+Buku pengantar favorit kami adalah [_Computer Systems: A Programmer's Perspective_](https://csapp.cs.cmu.edu/3e/home.html), dan kuliah pengantar arsitektur komputer yang menggunakan buku ini biasanya [akan mencakup](https://csapp.cs.cmu.edu/3e/courses.html) sebagian besar bab 1 sampai 6.
+
+Kami menyukai buku _CS:APP_ karena pendekatannya yang praktis dan berorientasi pada pemrogram. Meskipun masih ada banyak hal tentang arsitektur komputer yang tidak terdapat dalam buku ini, _CS:APP_ sangat cocok sebagai pengantar bagi mereka yang ingin memahami sistem komputer terutama untuk membuat perangkat lunak yang lebih cepat, lebih efisien, dan lebih andal.
+
+Bagi mereka yang lebih suka pengenalan topik arsitektur komputer yang lebih ringan dan seimbang antara perangkat keras dan perangkat lunak, kami menyarankan _The Elements of Computing Systems_, juga dikenal sebagai _Nand2Tetris_. Buku ini mencoba memberi Anda pemahaman yang padu tentang cara kerja segala sesuatu yang terdapat pada komputer. Setiap bab membangun bagian kecil dari keseluruhan sistem, mulai dari menulis _logic gate_ dasar dalam HDL, melalui CPU dan _assembler_, hingga aplikasi seukuran permainan Tetris.
+
+Kami menyarankan Anda untuk membaca enam bab pertama buku ini dan menyelesaikan proyek latihannya. Hal ini dapat mengembangkan pemahaman Anda tentang hubungan antara arsitektur sebuah mesin dan perangkat lunak yang berjalan di atasnya.
+
+Separuh pertama buku ini (dan semua proyek latihannya) tersedia secara gratis melalui [situs web _Nand2Tetris_](https://www.nand2tetris.org/). Materi buku ini juga tersedia dalam bentuk video melalui [kursus daring dari Coursera](https://www.coursera.org/learn/build-a-computer).
+
+_Nand2Tetris_ menukar pembahasan yang mendalam dengan kesederhanaan dan keterpaduan. Khususnya dua konsep yang sangat penting dalam arsitektur komputer modern, yaitu _pipelining_ dan _memory hierarchy_, tetapi keduanya hampir tidak ada dalam buku ini.
+
+Setelah Anda merasa nyaman dengan _Nand2Tetris_, kami sarankan untuk mencoba kembali buku _CS:APP_, atau mempertimbangkan [_Computer Organization and Design_](https://smile.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269) oleh Patterson dan Hennessy, sebuah buku teks klasik yang sangat bagus. Anda tidak harus membaca setiap bagian dari buku ini; kami menyarankan Anda untuk mengikuti kuliah [CS61C](https://inst.eecs.berkeley.edu/~cs61c/sp15/) _Great Ideas in Computer Architecture_ dari Berkeley untuk bacaan tertentu dalam buku ini. Catatan kuliahnya tersedia secara daring, dan kuliah sebelumnya [terdapat di Internet Archive](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_).
+
 ### Sistem Operasi
 
 <img align="right" width="200" src="https://teachyourselfcs.com/ostep.jpeg">
@@ -89,7 +113,7 @@ Mengingat begitu banyak rekayasa perangkat lunak ada di server dan klien web, sa
 
 Buku favorit kami tentang topik ini adalah [_Computer Networking: A Top-Down Approach_](https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/). Proyek-proyek kecil dan latihan dalam buku ini sangat layak untuk dikerjakan, dan kami sangat menyukai _Wireshark labs_ yang telah mereka [sediakan gratis secara daring](http://www-net.cs.umass.edu/wireshark-labs/).
 
-Bagi mereka yang lebih menyukai materi dalam bentuk video, kami menyarankan video kuliah [Introduction to Computer Networking](https://www.youtube.com/playlist?list=PLoCMsyE1cvdWKsLVyf6cPwCLDIZnOj0NS) dari Stanford yang sebelumnya ada pada platform belajar online mereka, tapi sayangnya sekarang hanya tersedia sebagai playlist tidak resmi di YouTube.
+Bagi mereka yang lebih menyukai materi dalam bentuk video, kami menyarankan video kuliah [_Introduction to Computer Networking_](https://www.youtube.com/playlist?list=PLoCMsyE1cvdWKsLVyf6cPwCLDIZnOj0NS) dari Stanford yang sebelumnya ada pada platform belajar online mereka, tapi sayangnya sekarang hanya tersedia sebagai playlist tidak resmi di YouTube.
 
 ## Pertanyaan yang sering diajukan
 
